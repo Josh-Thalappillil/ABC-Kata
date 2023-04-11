@@ -9,7 +9,7 @@ namespace ABC_Kata
 
     public class Blocks
     {
-        private List <string> _blocks = new List <string> ()
+        private List <string> blocks = new List <string> ()
         {
             "B O", "X K", "D Q", "C P",
             "N A", "G T", "R E", "T G",
