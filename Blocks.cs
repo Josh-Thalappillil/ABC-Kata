@@ -9,13 +9,13 @@ namespace ABC_Kata
 
     public class Blocks
     {
-        private List <string> blocks = new List <string> ()
+        private readonly List<string> blocks = new List<string>()
         {
             "B O", "X K", "D Q", "C P",
             "N A", "G T", "R E", "T G",
-            "Q D", "F S", "J W", "H U", 
-            "V I", "A N", "O B", "E R", 
+            "Q D", "F S", "J W", "H U",
+            "V I", "A N", "O B", "E R",
             "F S", "L Y", "P C", "Z M"
-        }
+        };
     }
 }
